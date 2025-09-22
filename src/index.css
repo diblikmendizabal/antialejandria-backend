@@ -1,0 +1,39 @@
+@import "tailwindcss";
+@font-face {
+  font-family: "Fredoka";
+  src: url("./vendor/fonts/Fredoka-Variable.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ShantellSans";
+  src: url("./vendor/fonts/ShantellSans.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Baloo";
+  src: url("./vendor/fonts/Baloo2.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+:root {
+  --title: "ShantellSans", cursive;
+  --subtitle: "Baloo", sans-serif;
+  --text: "Fredoka", sans-serif;
+  --purple: #390099;
+  --wine: #9e0059;
+  --pink: #ff0054;
+  --orange: #ff5400;
+  --yellow: #ffbd00;
+}
+
+body {
+  font-family: var(--text);
+  font-size: 16px;
+  background-color: #000000;
+  color: white;
+}
